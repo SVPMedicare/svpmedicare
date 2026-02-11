@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVP Medicare LLP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Opening Section -->
+    <div class="landing" id="landing">
+        <img src="https://via.placeholder.com/200x200?text=SVP+LOGO" class="logo">
+        <button onclick="enterSite()">Visit</button>
+    </div>
+
+    <!-- Main Website -->
+    <div id="mainContent" style="display:none;">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>ABBOTT SUPER DISTRIBUTERS</h1>
+            <p>SVP Medicare LLP – Super Distributor of Abbott Medicines from Hyderabad to all over India.</p>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products">
+            <h2>Our Medicines</h2>
+            <div class="product-box">
+                <div class="card">Gastro Range</div>
+                <div class="card">Cough & Cold</div>
+                <div class="card">Vitamins & Minerals</div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://maps.google.com/maps?q=hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="400">
+            </iframe>
+        </section>
+
+        <!-- Company Details -->
+        <section class="company">
+            <h2>Company Details</h2>
+            <div class="director">
+                <img src="https://via.placeholder.com/150" alt="Director">
+                <h3>Director Name</h3>
+                <p>Email: info@svpmedicare.com</p>
+                <p>Phone: +91-XXXXXXXXXX</p>
+            </div>
+
+            <div class="about">
+                <p><strong>Company Name:</strong> SVP Medicare LLP</p>
+                <p><strong>Type:</strong> Abbott Super Distributor</p>
+                <p><strong>Location:</strong> Hyderabad, Telangana</p>
+            </div>
+        </section>
+
+        <footer>
+            © 2026 SVP Medicare LLP. All Rights Reserved.
+        </footer>
+
+    </div>
+
+<script>
+function enterSite() {
+    document.getElementById("landing").style.display = "none";
+    document.getElementById("mainContent").style.display = "block";
+}
+</script>
+
+</body>
+</html>
