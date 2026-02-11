@@ -6,13 +6,10 @@
 <title>SVP Medicare LLP | Abbott Super Distributor</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    scroll-behavior: smooth;
-}
+body { margin: 0; font-family: Arial, sans-serif; scroll-behavior: smooth; }
+section { padding: 70px 20px; text-align: center; }
+h1,h2 { color: #003366; }
 
-/* Landing */
 .landing {
     height: 100vh;
     background: linear-gradient(to right, #003366, #0059b3);
@@ -34,10 +31,6 @@ body {
     font-weight: bold;
 }
 
-/* Sections */
-section { padding: 70px 20px; text-align: center; }
-h1,h2 { color: #003366; }
-
 .hero { background: #f4f8fb; }
 
 .products { background: #e9f2fb; }
@@ -54,10 +47,8 @@ h1,h2 { color: #003366; }
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Map */
-.map iframe { border-radius: 10px; }
+.map iframe { border-radius: 10px; margin-top:20px; }
 
-/* Directors */
 .director-box {
     display: flex;
     justify-content: center;
@@ -68,15 +59,11 @@ h1,h2 { color: #003366; }
     background: white;
     padding: 20px;
     border-radius: 12px;
-    width: 250px;
+    width: 260px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-.director img {
-    width: 120px;
-    border-radius: 50%;
-}
+.director img { width: 120px; border-radius: 50%; }
 
-/* Form */
 form {
     max-width: 500px;
     margin: auto;
@@ -92,24 +79,21 @@ input, textarea {
 button.submit-btn {
     background: #003366;
     color: white;
+    font-weight: bold;
 }
 
-/* Footer */
 footer {
     background: #003366;
     color: white;
     padding: 20px;
 }
 
-/* WhatsApp */
 .whatsapp {
     position: fixed;
     bottom: 20px;
     right: 20px;
 }
-.whatsapp img {
-    width: 60px;
-}
+.whatsapp img { width: 60px; }
 </style>
 </head>
 
@@ -117,7 +101,7 @@ footer {
 
 <!-- Landing -->
 <div class="landing" id="landing">
-    <img src="https://via.placeholder.com/200x200?text=SVP+LOGO">
+    <img src="https://via.placeholder.com/200x200?text=SVP+Medicare">
     <button onclick="enterSite()">Visit</button>
 </div>
 
@@ -144,13 +128,28 @@ footer {
 
 <!-- Locations -->
 <section class="map">
-    <h2>Our Branch Locations</h2>
-    <h4>Hyderabad Head Office</h4>
-    <iframe src="https://maps.google.com/maps?q=hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    <h2>Our Locations</h2>
+
+    <h3>Head Office – Gachibowli</h3>
+    <p>
+    SVP Medicare LLP<br>
+    4th Floor, Plot No.21&22, Telecom Nagar,<br>
+    Trendz Dwaraka, Gachibowli,<br>
+    Hyderabad - 500032
+    </p>
+
+    <iframe src="https://maps.google.com/maps?q=Gachibowli%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
         width="100%" height="300"></iframe>
 
-    <h4 style="margin-top:40px;">Telangana Distribution Point</h4>
-    <iframe src="https://maps.google.com/maps?q=telangana&t=&z=8&ie=UTF8&iwloc=&output=embed"
+    <h3 style="margin-top:40px;">Warehouse – Medchal</h3>
+    <p>
+    SVP Medicare LLP<br>
+    SY.NO: 615, 624, Pudur Village,<br>
+    Medchal Mandal, Medchal District,<br>
+    Malkajgiri, Hyderabad - 501401
+    </p>
+
+    <iframe src="https://maps.google.com/maps?q=Medchal%20Hyderabad&t=&z=11&ie=UTF8&iwloc=&output=embed"
         width="100%" height="300"></iframe>
 </section>
 
@@ -158,18 +157,23 @@ footer {
 <section>
     <h2>Company Leadership</h2>
     <div class="director-box">
+
         <div class="director">
             <img src="https://via.placeholder.com/120">
-            <h3>Director Name</h3>
+            <h3>NELLI YASHWANTH</h3>
+            <p>Director</p>
+            <p>Phone: +91 9390494784</p>
             <p>Email: info@svpmedicare.com</p>
-            <p>Phone: +91-XXXXXXXXXX</p>
         </div>
+
         <div class="director">
             <img src="https://via.placeholder.com/120">
-            <h3>Managing Partner</h3>
+            <h3>NELLI HARISH</h3>
+            <p>Director</p>
+            <p>Phone: +91 9390494784</p>
             <p>Email: sales@svpmedicare.com</p>
-            <p>Phone: +91-XXXXXXXXXX</p>
         </div>
+
     </div>
 </section>
 
@@ -192,7 +196,7 @@ footer {
 </div>
 
 <!-- WhatsApp Button -->
-<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX" target="_blank">
+<a class="whatsapp" href="https://wa.me/919390494784" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
 </a>
 
